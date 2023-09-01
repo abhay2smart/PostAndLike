@@ -7,9 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		171B3EAF2AA1A175006ACF4E /* ButtonTapDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 171B3EAE2AA1A175006ACF4E /* ButtonTapDelegate.swift */; };
 		1745E3752A9F006F00898F22 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1745E3742A9F006F00898F22 /* AppDelegate.swift */; };
 		1745E3772A9F006F00898F22 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1745E3762A9F006F00898F22 /* SceneDelegate.swift */; };
-		1745E3792A9F006F00898F22 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1745E3782A9F006F00898F22 /* ViewController.swift */; };
+		1745E3792A9F006F00898F22 /* PostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1745E3782A9F006F00898F22 /* PostViewController.swift */; };
 		1745E37C2A9F006F00898F22 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1745E37A2A9F006F00898F22 /* Main.storyboard */; };
 		1745E37F2A9F006F00898F22 /* PostAndLike.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1745E37D2A9F006F00898F22 /* PostAndLike.xcdatamodeld */; };
 		1745E3812A9F007000898F22 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1745E3802A9F007000898F22 /* Assets.xcassets */; };
@@ -17,6 +18,23 @@
 		1745E38F2A9F007000898F22 /* PostAndLikeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1745E38E2A9F007000898F22 /* PostAndLikeTests.swift */; };
 		1745E3992A9F007000898F22 /* PostAndLikeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1745E3982A9F007000898F22 /* PostAndLikeUITests.swift */; };
 		1745E39B2A9F007000898F22 /* PostAndLikeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1745E39A2A9F007000898F22 /* PostAndLikeUITestsLaunchTests.swift */; };
+		1745E3A92A9F049000898F22 /* PostTableViewAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1745E3A82A9F049000898F22 /* PostTableViewAdapter.swift */; };
+		1745E3AC2A9F061600898F22 /* PostTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1745E3AB2A9F061600898F22 /* PostTableViewCell.swift */; };
+		1745E3AF2A9F083300898F22 /* PostModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1745E3AE2A9F083300898F22 /* PostModel.swift */; };
+		1745E3B22A9F090A00898F22 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1745E3B12A9F090A00898F22 /* Network.swift */; };
+		1745E3B52A9F0BF100898F22 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1745E3B42A9F0BF100898F22 /* Constant.swift */; };
+		1745E3B82A9F0C2300898F22 /* PostViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1745E3B72A9F0C2300898F22 /* PostViewModel.swift */; };
+		1753CF0C2A9F3D0800906072 /* PostPersistantManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1753CF0B2A9F3D0800906072 /* PostPersistantManager.swift */; };
+		1753CF0F2A9FAC7E00906072 /* CommentsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1753CF0E2A9FAC7E00906072 /* CommentsViewController.swift */; };
+		176A7E772AA104A1002330AD /* FavouriteTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 176A7E762AA104A1002330AD /* FavouriteTableViewCell.swift */; };
+		176A7E792AA10578002330AD /* FavouriteTableViewAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 176A7E782AA10578002330AD /* FavouriteTableViewAdapter.swift */; };
+		176A7E7B2AA10D6E002330AD /* FavouriteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 176A7E7A2AA10D6E002330AD /* FavouriteViewController.swift */; };
+		17CF82092AA04A73003485A5 /* CommentsTableviewAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17CF82082AA04A73003485A5 /* CommentsTableviewAdapter.swift */; };
+		17CF820B2AA04AFE003485A5 /* CommentsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17CF820A2AA04AFE003485A5 /* CommentsViewModel.swift */; };
+		17CF820E2AA04BA3003485A5 /* RefreshDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17CF820D2AA04BA3003485A5 /* RefreshDelegate.swift */; };
+		17CF82122AA052D7003485A5 /* CommentsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17CF82112AA052D7003485A5 /* CommentsTableViewCell.swift */; };
+		17CF82142AA084DA003485A5 /* CommentPersistantManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17CF82132AA084DA003485A5 /* CommentPersistantManager.swift */; };
+		17CF82162AA09435003485A5 /* CommentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17CF82152AA09435003485A5 /* CommentModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,10 +55,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		171B3EAE2AA1A175006ACF4E /* ButtonTapDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonTapDelegate.swift; sourceTree = "<group>"; };
 		1745E3712A9F006F00898F22 /* PostAndLike.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PostAndLike.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1745E3742A9F006F00898F22 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1745E3762A9F006F00898F22 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		1745E3782A9F006F00898F22 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1745E3782A9F006F00898F22 /* PostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostViewController.swift; sourceTree = "<group>"; };
 		1745E37B2A9F006F00898F22 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1745E37E2A9F006F00898F22 /* PostAndLike.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PostAndLike.xcdatamodel; sourceTree = "<group>"; };
 		1745E3802A9F007000898F22 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -51,6 +70,23 @@
 		1745E3942A9F007000898F22 /* PostAndLikeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PostAndLikeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1745E3982A9F007000898F22 /* PostAndLikeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostAndLikeUITests.swift; sourceTree = "<group>"; };
 		1745E39A2A9F007000898F22 /* PostAndLikeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostAndLikeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		1745E3A82A9F049000898F22 /* PostTableViewAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostTableViewAdapter.swift; sourceTree = "<group>"; };
+		1745E3AB2A9F061600898F22 /* PostTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostTableViewCell.swift; sourceTree = "<group>"; };
+		1745E3AE2A9F083300898F22 /* PostModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostModel.swift; sourceTree = "<group>"; };
+		1745E3B12A9F090A00898F22 /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
+		1745E3B42A9F0BF100898F22 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		1745E3B72A9F0C2300898F22 /* PostViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostViewModel.swift; sourceTree = "<group>"; };
+		1753CF0B2A9F3D0800906072 /* PostPersistantManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostPersistantManager.swift; sourceTree = "<group>"; };
+		1753CF0E2A9FAC7E00906072 /* CommentsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentsViewController.swift; sourceTree = "<group>"; };
+		176A7E762AA104A1002330AD /* FavouriteTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouriteTableViewCell.swift; sourceTree = "<group>"; };
+		176A7E782AA10578002330AD /* FavouriteTableViewAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouriteTableViewAdapter.swift; sourceTree = "<group>"; };
+		176A7E7A2AA10D6E002330AD /* FavouriteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouriteViewController.swift; sourceTree = "<group>"; };
+		17CF82082AA04A73003485A5 /* CommentsTableviewAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentsTableviewAdapter.swift; sourceTree = "<group>"; };
+		17CF820A2AA04AFE003485A5 /* CommentsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentsViewModel.swift; sourceTree = "<group>"; };
+		17CF820D2AA04BA3003485A5 /* RefreshDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RefreshDelegate.swift; sourceTree = "<group>"; };
+		17CF82112AA052D7003485A5 /* CommentsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentsTableViewCell.swift; sourceTree = "<group>"; };
+		17CF82132AA084DA003485A5 /* CommentPersistantManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentPersistantManager.swift; sourceTree = "<group>"; };
+		17CF82152AA09435003485A5 /* CommentModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +114,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		171B3EB02AA1D37D006ACF4E /* Pattern */ = {
+			isa = PBXGroup;
+			children = (
+				1745E3AD2A9F082700898F22 /* Model */,
+				1745E3AA2A9F05FE00898F22 /* TableViewCell */,
+				1745E3B62A9F0C1200898F22 /* ViewModel */,
+			);
+			path = Pattern;
+			sourceTree = "<group>";
+		};
 		1745E3682A9F006F00898F22 = {
 			isa = PBXGroup;
 			children = (
@@ -101,9 +147,15 @@
 		1745E3732A9F006F00898F22 /* PostAndLike */ = {
 			isa = PBXGroup;
 			children = (
+				171B3EB02AA1D37D006ACF4E /* Pattern */,
+				1753CF0D2A9FAC4300906072 /* Controllers */,
+				17CF820C2AA04B79003485A5 /* Delegates */,
+				1753CF0A2A9F3CF400906072 /* PersistantManager */,
+				1745E3B32A9F0BDC00898F22 /* Constants */,
+				1745E3B02A9F08EC00898F22 /* Networking */,
+				1745E3A72A9F047D00898F22 /* TableViewAdapter */,
 				1745E3742A9F006F00898F22 /* AppDelegate.swift */,
 				1745E3762A9F006F00898F22 /* SceneDelegate.swift */,
-				1745E3782A9F006F00898F22 /* ViewController.swift */,
 				1745E37A2A9F006F00898F22 /* Main.storyboard */,
 				1745E3802A9F007000898F22 /* Assets.xcassets */,
 				1745E3822A9F007000898F22 /* LaunchScreen.storyboard */,
@@ -128,6 +180,88 @@
 				1745E39A2A9F007000898F22 /* PostAndLikeUITestsLaunchTests.swift */,
 			);
 			path = PostAndLikeUITests;
+			sourceTree = "<group>";
+		};
+		1745E3A72A9F047D00898F22 /* TableViewAdapter */ = {
+			isa = PBXGroup;
+			children = (
+				1745E3A82A9F049000898F22 /* PostTableViewAdapter.swift */,
+				17CF82082AA04A73003485A5 /* CommentsTableviewAdapter.swift */,
+				176A7E782AA10578002330AD /* FavouriteTableViewAdapter.swift */,
+			);
+			path = TableViewAdapter;
+			sourceTree = "<group>";
+		};
+		1745E3AA2A9F05FE00898F22 /* TableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				1745E3AB2A9F061600898F22 /* PostTableViewCell.swift */,
+				17CF82112AA052D7003485A5 /* CommentsTableViewCell.swift */,
+				176A7E762AA104A1002330AD /* FavouriteTableViewCell.swift */,
+			);
+			path = TableViewCell;
+			sourceTree = "<group>";
+		};
+		1745E3AD2A9F082700898F22 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1745E3AE2A9F083300898F22 /* PostModel.swift */,
+				17CF82152AA09435003485A5 /* CommentModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1745E3B02A9F08EC00898F22 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				1745E3B12A9F090A00898F22 /* Network.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		1745E3B32A9F0BDC00898F22 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				1745E3B42A9F0BF100898F22 /* Constant.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		1745E3B62A9F0C1200898F22 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				1745E3B72A9F0C2300898F22 /* PostViewModel.swift */,
+				17CF820A2AA04AFE003485A5 /* CommentsViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		1753CF0A2A9F3CF400906072 /* PersistantManager */ = {
+			isa = PBXGroup;
+			children = (
+				1753CF0B2A9F3D0800906072 /* PostPersistantManager.swift */,
+				17CF82132AA084DA003485A5 /* CommentPersistantManager.swift */,
+			);
+			path = PersistantManager;
+			sourceTree = "<group>";
+		};
+		1753CF0D2A9FAC4300906072 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				1745E3782A9F006F00898F22 /* PostViewController.swift */,
+				1753CF0E2A9FAC7E00906072 /* CommentsViewController.swift */,
+				176A7E7A2AA10D6E002330AD /* FavouriteViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		17CF820C2AA04B79003485A5 /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				17CF820D2AA04BA3003485A5 /* RefreshDelegate.swift */,
+				171B3EAE2AA1A175006ACF4E /* ButtonTapDelegate.swift */,
+			);
+			path = Delegates;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -261,10 +395,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1745E3792A9F006F00898F22 /* ViewController.swift in Sources */,
+				1745E3B82A9F0C2300898F22 /* PostViewModel.swift in Sources */,
+				1745E3792A9F006F00898F22 /* PostViewController.swift in Sources */,
+				17CF82142AA084DA003485A5 /* CommentPersistantManager.swift in Sources */,
+				176A7E772AA104A1002330AD /* FavouriteTableViewCell.swift in Sources */,
+				1745E3AF2A9F083300898F22 /* PostModel.swift in Sources */,
+				1753CF0C2A9F3D0800906072 /* PostPersistantManager.swift in Sources */,
+				1745E3B52A9F0BF100898F22 /* Constant.swift in Sources */,
+				17CF82092AA04A73003485A5 /* CommentsTableviewAdapter.swift in Sources */,
+				1745E3B22A9F090A00898F22 /* Network.swift in Sources */,
 				1745E3752A9F006F00898F22 /* AppDelegate.swift in Sources */,
+				17CF82162AA09435003485A5 /* CommentModel.swift in Sources */,
 				1745E37F2A9F006F00898F22 /* PostAndLike.xcdatamodeld in Sources */,
+				17CF82122AA052D7003485A5 /* CommentsTableViewCell.swift in Sources */,
+				1753CF0F2A9FAC7E00906072 /* CommentsViewController.swift in Sources */,
+				1745E3A92A9F049000898F22 /* PostTableViewAdapter.swift in Sources */,
+				17CF820E2AA04BA3003485A5 /* RefreshDelegate.swift in Sources */,
 				1745E3772A9F006F00898F22 /* SceneDelegate.swift in Sources */,
+				171B3EAF2AA1A175006ACF4E /* ButtonTapDelegate.swift in Sources */,
+				176A7E7B2AA10D6E002330AD /* FavouriteViewController.swift in Sources */,
+				176A7E792AA10578002330AD /* FavouriteTableViewAdapter.swift in Sources */,
+				17CF820B2AA04AFE003485A5 /* CommentsViewModel.swift in Sources */,
+				1745E3AC2A9F061600898F22 /* PostTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -441,6 +593,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 668SDSDP2X;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = PostAndLike/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -468,6 +621,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 668SDSDP2X;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = PostAndLike/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
